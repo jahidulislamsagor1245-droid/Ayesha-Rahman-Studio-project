@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Ayesha Rahman</title>
+<meta name="description" content="Get in touch with Ayesha Rahman — brand and UI designer based in Dhaka, Bangladesh.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">Ayesha Rahman <span>Studio</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn solid">Start a project</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- ============ PAGE TITLE ============ -->
+<section class="page-title grid-dark">
+  <div class="wrap">
+    <span class="fig">Fig. 00 — Contact</span>
+    <h1>Let's talk about your project</h1>
+    <p>Tell me a little about what you're building — I reply to every enquiry
+      within one business day.</p>
+    <div class="crumb"><a href="index.html" style="color:rgba(255,255,255,.7)">Home</a> / <span>Contact</span></div>
+  </div>
+</section>
+
+<!-- ============ DIRECT CONTACT INFO ============ -->
+<section class="contact-info">
+  <div class="wrap contact-grid">
+    <div class="contact-card crop">
+      <span class="lbl">Email</span>
+      <a href="mailto:hello@ayesharahman.design">hello@ayesharahman.design</a>
+    </div>
+    <div class="contact-card crop">
+      <span class="lbl">Phone</span>
+      <a href="tel:+8801711223344">+880 1711-223344</a>
+    </div>
+    <div class="contact-card crop">
+      <span class="lbl">Studio Address</span>
+      <p>House 14, Road 7, Dhanmondi<br>Dhaka 1209, Bangladesh</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT FORM + MAP ============ -->
+<section class="contact-main">
+  <div class="wrap contact-split">
+
+    <!-- Contact form -->
+    <div>
+      <span class="fig">Send a message</span>
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" autocomplete="name">
+            <span class="field-error" data-error-for="name"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" autocomplete="email">
+            <span class="field-error" data-error-for="email"></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+880 1XXX-XXXXXX" autocomplete="tel">
+            <span class="field-error" data-error-for="phone"></span>
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="City, Country" autocomplete="address-level2">
+            <span class="field-error" data-error-for="address"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me a little about your project…"></textarea>
+          <span class="field-error" data-error-for="message"></span>
+        </div>
+        <button type="submit" class="btn solid">Send message</button>
+        <div class="form-status" role="status"></div>
+      </form>
+    </div>
+
+    <!-- Google Map -->
+    <div>
+      <span class="fig">Find the studio</span>
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=Dhanmondi,Dhaka,Bangladesh&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Studio location map — Dhanmondi, Dhaka">
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Ayesha Rahman</div>
+        <p>Freelance brand &amp; UI designer working with founders and product
+          teams across South Asia and beyond.</p>
+      </div>
+      <div>
+        <h5>Navigate</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="service.html">Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Studio</h5>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="service.html">Pricing</a></li>
+          <li><a href="portfolio.html">Case studies</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get in touch</h5>
+        <p>House 14, Road 7, Dhanmondi<br>Dhaka 1209, Bangladesh</p>
+        <p style="margin-top:10px;">hello@ayesharahman.design<br>+880 1711-223344</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ayesha Rahman Studio. All rights reserved.</span>
+      <span>Built with care in Dhaka.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
